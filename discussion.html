@@ -1,0 +1,100 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Discussion</title>
+  <link rel="stylesheet" href="/Styles/discussion.css">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#accordion" ).accordion({
+      collapsible: true
+    });
+  } );
+  </script>
+</head>
+<body>
+    <header>
+		<img src="/Images/mnsu_D2L.png"  href="/index.html" alt="MNSU logo" width="120">
+		<h2>Minnesota State-Mankato</h2>
+		<h3>Big Ideas. Real World Thinking.</h3>
+    </header>
+    <nav id="nav_menu">
+    	<ul>
+    		
+    		<li><a  href="#">Classes</a>
+            	<ul>
+                <li><a href="/Classes/class1.html">Class 1</a></li>
+                <li><a href="/Classes/class2.html">Class 2</a></li>
+                <li><a href="/Classes/class3.html">Class 3</a></li>
+                <li><a href="/Classes/class4.html">Class 4</a></li>
+                <li><a href="/Classes/class5.html">Class 5</a></li>
+              </ul>
+            </li>
+            <li><a href="">Student Recources</a>
+                <ul>
+                    <li><a href="https://www.mnsu.edu/">MNSU</a></li>
+                    <li><a href="https://web.mnsu.edu/eservices/">EServices</a></li>
+                    <li><a href="https://www.mnsu.edu/university-life/campus-services/accessibility-resources/">Disabilities</a></li>
+                    <li><a href="https://www.mnsu.edu/university-life/health-and-safety/student-health-services/medical-clinic/clinic-services/mental-health/#:~:text=To%20schedule%20a%20mental%20health,call%20507%2D389%2D6276.">Mental Health</a></li>
+                </ul>
+            </li>
+            <li><a href="">Content</a>
+              <ul>
+                  <li><a href="/assignment.html">Lectures</a></li>
+                  <li><a href="/discussion.html">Discussion</a></li>
+                  <li><a href="/assignment.html">Assignments</a></li>
+              </ul>
+          </li>
+          <li><a href="/calendar.html">Calendar</a></li>
+    		  <li><a class="lastitem" href="/PROTOTYPE/index.html">Search</a></li>         
+        </ul>
+    </nav>
+<div id="accordion">
+  <h3><strong>Discussion 1</strong></h3>
+  <div>
+    <p><strong>Topic:</strong><br>
+        <input type="text" name="topic_owner" size="140" maxlength="150"> </p>
+          
+           <p><strong>Post Text:</strong><br>
+        <textarea name="post_text" rows="8" cols= "140" wrap="virtual"></textarea></p>
+           <p><input id ="d1" type="submit" name="submit" value="Post"></p>
+  </div>
+  <h3><strong>Discussion 2</strong></h3>
+  <div>
+    
+    <p><strong>Topic:</strong><br>
+        <input type="text" name="topic_owner" size="140" maxlength="150"> </p>
+          
+           <p><strong>Post Text:</strong><br>
+        <textarea name="post_text" rows="8" cols= "140" wrap="virtual"></textarea></p>
+           <p><input id ="d2" type="submit" name="submit" value="Post"></p>
+  </div>
+  <h3><strong>Discussion 3</strong></h3>
+  <div>
+    
+    <p><strong>Topic:</strong><br>
+        <input type="text" name="topic_owner" size="140" maxlength="150"> </p>
+          
+           <p><strong>Post Text:</strong><br>
+        <textarea name="post_text" rows="8" cols= "140" wrap="virtual"></textarea></p>
+           <p><input id ="d3" type="submit" name="submit" value="Post"></p>
+  </div>
+  <h3><strong>Discussion 4</strong></h3>
+  <div>
+    
+    <p><strong>Topic:</strong><br>
+        <input type="text" name="topic_owner" size="140" maxlength="150"> </p>
+          
+           <p><strong>Post Text:</strong><br>
+        <textarea name="post_text" rows="8" cols= "140" wrap="virtual"></textarea></p>
+           <p><input id ="d4" type="submit" name="submit" value="Post"></p>
+  </div>
+</div>
+</body>
+</html>
